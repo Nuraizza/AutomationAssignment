@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-16T11:08:18 AST" name="Default suite" finished-at="2024-07-16T11:08:26 AST" duration-ms="7850">
+    <groups>
+    </groups>
+    <test started-at="2024-07-16T11:08:18 AST" name="Default test" finished-at="2024-07-16T11:08:26 AST" duration-ms="7850">
+      <class name="com.Integral.Automation_Assignment.Task2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Integral.Automation_Assignment.Task2@1ce24091]" started-at="2024-07-16T11:08:18 AST" name="setUp" finished-at="2024-07-16T11:08:18 AST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddNewDevice(com.google.gson.JsonObject)[pri:0, instance:com.Integral.Automation_Assignment.Task2@1ce24091]" started-at="2024-07-16T11:08:18 AST" name="testAddNewDevice" data-provider="deviceData" finished-at="2024-07-16T11:08:22 AST" duration-ms="3468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"baseUrl":"https://api.restful-api.dev/objects","deviceName":"Apple Max Pro 1TB","cpuModel":"Apple ARM A7","hardDiskSize":"1 TB","year":2023,"price":7999.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewDevice -->
+        <test-method signature="testAddNewDeviceToInvalidEndpoint(com.google.gson.JsonObject)[pri:0, instance:com.Integral.Automation_Assignment.Task2@1ce24091]" started-at="2024-07-16T11:08:22 AST" name="testAddNewDeviceToInvalidEndpoint" data-provider="deviceData" finished-at="2024-07-16T11:08:23 AST" duration-ms="1339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"baseUrl":"https://api.restful-api.dev/objects","deviceName":"Apple Max Pro 1TB","cpuModel":"Apple ARM A7","hardDiskSize":"1 TB","year":2023,"price":7999.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewDeviceToInvalidEndpoint -->
+        <test-method signature="testAddNewDeviceWithInvalidData(com.google.gson.JsonObject)[pri:0, instance:com.Integral.Automation_Assignment.Task2@1ce24091]" started-at="2024-07-16T11:08:23 AST" name="testAddNewDeviceWithInvalidData" data-provider="deviceData" finished-at="2024-07-16T11:08:25 AST" duration-ms="1355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"baseUrl":"https://api.restful-api.dev/objects","deviceName":"Apple Max Pro 1TB","cpuModel":"Apple ARM A7","hardDiskSize":"1 TB","year":2023,"price":7999.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewDeviceWithInvalidData -->
+        <test-method signature="testAddNewDeviceWithMissingField(com.google.gson.JsonObject)[pri:0, instance:com.Integral.Automation_Assignment.Task2@1ce24091]" started-at="2024-07-16T11:08:25 AST" name="testAddNewDeviceWithMissingField" data-provider="deviceData" finished-at="2024-07-16T11:08:26 AST" duration-ms="1222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"baseUrl":"https://api.restful-api.dev/objects","deviceName":"Apple Max Pro 1TB","cpuModel":"Apple ARM A7","hardDiskSize":"1 TB","year":2023,"price":7999.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewDeviceWithMissingField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Integral.Automation_Assignment.Task2@1ce24091]" started-at="2024-07-16T11:08:26 AST" name="tearDown" finished-at="2024-07-16T11:08:26 AST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Integral.Automation_Assignment.Task2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
